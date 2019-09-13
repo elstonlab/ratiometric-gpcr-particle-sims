@@ -1,7 +1,7 @@
 # ratiometric-gpcr-particle-sims
 Particle-based simulation and analysis code for "Ratiometric GPCR signaling enables directional sensing in yeast".
 
-The simulations were performed on Longleaf, a UNC compute cluster, using [Smoldyn](www.smoldyn.org) v2.56 and analyzed in [MATLAB](https://www.mathworks.com/products/matlab.html) 2017b. Representative scripts to generate, process, and analyze main text figures are provided. Additionally, .csv files containing data from Figures 5g, 6b, and 8e are provided in Representative_Analyzed_Data. A more complete set of .csv files for all the particle-based simulation figure panels in the paper is provided in __Data_For_Figures()__
+The simulations were performed on Longleaf, a UNC compute cluster, using [Smoldyn](www.smoldyn.org) v2.56 and analyzed in [MATLAB](https://www.mathworks.com/products/matlab.html) 2017b. Representative scripts to generate, process, and analyze main text figures are provided. Additionally, .csv files containing data from Figures 5g, 6b, and 8e are provided in Representative_Analyzed_Data. A more complete set of .csv files for all the particle-based simulation figure panels in the paper is provided in __Data_For_Figures__.
 
 # Workflow
 The folders and files provided are meant to reflect the typical workflow for analyzing the data, and are not all intended to be usable out-of-the-box. The following assumes Smoldyn and MATLAB are set up appropriately. Simulations can be run on a desktop computer, with run times on the order of day(s); the UNC Longleaf compute cluster was used to perform simulations in ["embarrassingly parallel"](https://en.wikipedia.org/wiki/Embarrassingly_parallel) fashion.
